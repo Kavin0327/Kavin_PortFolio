@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal-Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/54c8c57be0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- header -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <a href="#header"><img src="assets/logo.png" class="logo" /></a>
+          <ul id="sideMenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactus">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+        </nav>
+        <div class="main-content">
+          <div class="header-text">
+            <p>Web Developer</p>
+            <h1>
+              Hi, I'm <span style="color: #ff004f">Kavin</span> <br />
+              From Namakkal
+            </h1>
+          </div>
+          <div class="content-right">
+            <div class="home-img">
+              <img src="assets/portfolio1.jpeg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------- About  ------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="assets/person-2d-cartoon.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <br />
+            <p>
+              Dynamic and motivated student of computer science and engineering
+              with a strong foundation in problem solving techniques and a
+              genuine curiosity for exploring new technologies. Eager to
+              contribute my creativity and dedication to a team that values
+              innovative solutions.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="openTab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="openTab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <div class="skill-boxs">
+                <div class="skill-title">
+                  <img src="assets/html.png" class="skill-icon" />
+                  <h3>HTML 5</h3>
+                </div>
+                <div class="skill-title">
+                  <img src="assets/css.png" class="skill-icon" />
+                  <h3>CSS 3</h3>
+                </div>
+                <div class="skill-title">
+                  <img src="assets/js.png" class="skill-icon" />
+                  <h3>JavaScript</h3>
+                </div>
+                <div class="skill-title">
+                  <img src="assets/java.png" class="skill-icon" />
+                  <h3>JAVA</h3>
+                </div>
+                <div class="skill-title">
+                  <img src="assets/sql.webp" class="skill-icon" />
+                  <h3>SQL</h3>
+                </div>
+                <div class="skill-title">
+                  <img src="assets/c++.png" class="skill-icon" />
+                  <h3>C++</h3>
+                </div>
+                <div class="skill-title">
+                  <img src="assets/c.png" class="skill-icon" />
+                  <h3>C</h3>
+                </div>
+                <div class="skill-title">
+                  <img src="assets/python.png" class="skill-icon" />
+                  <h3>Python</h3>
+                </div>
+              </div>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>Bachelor of Computer Science and Engineering</span
+                  ><br />
+                  Karpagam College of Engineering <br />CGPA : 8.3 ( till 5th
+                  Semester) 2021 - present
+                </li>
+                <br />
+                <li>
+                  <span>Higher Secondary Education</span> <br />Govt Boys Higher
+                  Secondary School<br />
+                  Percentage : 83.2% 2020 - 2021
+                </li>
+                <br />
+                <li>
+                  <span>Secondary School Leaving Certificate</span> <br />Govt
+                  Boys HigherSecondary School<br />
+                  Percentage : 74.2% 2018 - 2019
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!------------- My Projects ------------->
+
+    <!-- <div id="projects">
+      <div class="container">
+        <br />
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+          <div>
+            <h2>Online Gift <br />Shopping</h2>
+            <img src="assets/onlineGiftShop.png" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              incidunt repellat quas reprehenderit laboriosam, consequuntur eius
+              accusamus harum excepturi iusto. Corrupti libero ducimus corporis
+              iure quas, dolorem doloremque quam inventore.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <h2>Street Light Automation</h2>
+            <img src="assets/StreetLight Automation.jpg" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              incidunt repellat quas reprehenderit laboriosam, consequuntur eius
+              accusamus harum excepturi iusto. Corrupti libero ducimus corporis
+              iure quas, dolorem doloremque quam inventore.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+          <div>
+            <h2>Document Similarity Analzyer</h2>
+            <img src="assets/Documents.png" />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              incidunt repellat quas reprehenderit laboriosam, consequuntur eius
+              accusamus harum excepturi iusto. Corrupti libero ducimus corporis
+              iure quas, dolorem doloremque quam inventore.
+            </p>
+            <a href="#">learn more</a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <div id="projects">
+      <div class="container">
+        <br />
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+          <div class="project">
+            <img src="assets/onlineGiftShopping.png" />
+            <div class="layer">
+              <h3>Online Gift Shop</h3>
+              <p>
+                This Mini Project provides a basic structure for an online gift
+                shop.
+              </p>
+              <a href="https://github.com/Kavin0327/Giftz_WEDMiniProject"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="assets/DocumentAnalyzer.png" />
+            <div class="layer">
+              <h3>Document Similarity Analzyer</h3>
+              <p>
+                It is a web based application which finds the similarity between
+                two files to check plagiarism or detecting duplicate documents.
+              </p>
+              <a
+                href="https://github.com/Kavin0327/Document-Similarity-Analyzer"
+              >
+                <i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project">
+            <img src="assets/StreetLight Automation.jpg" />
+            <div class="layer">
+              <h3>Street Light Automation</h3>
+              <p>
+                It automatically turn on/off, controlling illumination of light
+                and lamp fault detection using sensor.
+              </p>
+              <a href="https://github.com/Kavin0327/Street_Light_Automation"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn"> See more</a>
+      </div>
+    </div>
+
+    <!-----  Contact ------>
+
+    <div id="contactus">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i> k.kavincse@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i> +91 6374444368</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/kavin0327/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Kavin0327"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a href="assets/cv/kavinResume.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email ID"
+                required
+              />
+              <input
+                type="text"
+                name="Subject"
+                placeholder="Enter Subject"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="copyright">
+      <p>Copyright &copy; 2024 by Kavin K</p>
+    </div>
+  </body>
+  <script src="js/index.js"></script>
+</html>
